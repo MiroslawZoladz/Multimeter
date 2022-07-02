@@ -32,7 +32,8 @@ class Multimeter:
         self.commmand(f'o {out0} {out1}')
 
 
-mm = Multimeter(56)
-mm.ao(0.123, 0.321)
-print(mm.ai())
+# USAGE EXAMPLE
+#mm = Multimeter(56)
+#mm.ao(0.123, 0.321)
+#print(mm.ai())
 
